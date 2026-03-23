@@ -1,0 +1,22 @@
+﻿  OptimizationFibonachi.cpp
+E:\source\repos\OptimizationFibonachi\OptimizationFibonachi\OptimizationFibonachi.cpp(28,24): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+E:\source\repos\OptimizationFibonachi\OptimizationFibonachi\OptimizationFibonachi.cpp(36,12): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+E:\source\repos\OptimizationFibonachi\OptimizationFibonachi\OptimizationFibonachi.cpp(47,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\source\repos\OptimizationFibonachi\OptimizationFibonachi\OptimizationFibonachi.cpp(47,51): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\source\repos\OptimizationFibonachi\OptimizationFibonachi\OptimizationFibonachi.cpp(48,30): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\source\repos\OptimizationFibonachi\OptimizationFibonachi\OptimizationFibonachi.cpp(48,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\source\repos\OptimizationFibonachi\OptimizationFibonachi\OptimizationFibonachi.cpp(51,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\source\repos\OptimizationFibonachi\OptimizationFibonachi\OptimizationFibonachi.cpp(52,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\source\repos\OptimizationFibonachi\OptimizationFibonachi\OptimizationFibonachi.cpp(59,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\source\repos\OptimizationFibonachi\OptimizationFibonachi\OptimizationFibonachi.cpp(59,64): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\source\repos\OptimizationFibonachi\OptimizationFibonachi\OptimizationFibonachi.cpp(65,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\source\repos\OptimizationFibonachi\OptimizationFibonachi\OptimizationFibonachi.cpp(65,64): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\source\repos\OptimizationFibonachi\OptimizationFibonachi\OptimizationFibonachi.cpp(70,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\source\repos\OptimizationFibonachi\OptimizationFibonachi\OptimizationFibonachi.cpp(71,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\source\repos\OptimizationFibonachi\OptimizationFibonachi\OptimizationFibonachi.cpp(75,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+E:\source\repos\OptimizationFibonachi\OptimizationFibonachi\OptimizationFibonachi.cpp(76,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\source\repos\OptimizationFibonachi\OptimizationFibonachi\OptimizationFibonachi.cpp(88,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\source\repos\OptimizationFibonachi\OptimizationFibonachi\OptimizationFibonachi.cpp(89,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+E:\source\repos\OptimizationFibonachi\OptimizationFibonachi\OptimizationFibonachi.cpp(90,24): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\source\repos\OptimizationFibonachi\OptimizationFibonachi\OptimizationFibonachi.cpp(93,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  OptimizationFibonachi.vcxproj -> E:\source\repos\OptimizationFibonachi\x64\Debug\OptimizationFibonachi.exe

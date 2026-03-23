@@ -1,0 +1,96 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+double func(double x) {
+    return 2 * pow(x, 2) - 2 * x + 5 / 2;
+}
+
+int FibonachiX(int x) {
+    if (x <= 0) return 0;
+    if (x <= 1) return 1;
+
+    int prev = 0;
+    int curr = 1;
+    int i = 0;
+
+    while (curr < x) {
+        int next = prev + curr;
+        prev = curr;
+        curr = next;
+        i++;
+    }
+
+    return i;
+}
+
+float FibonachiN(int n) {
+    if (n <= 1) return n;
+
+    int prev = 0, curr = 1;
+    for (int i = 2; i <= n; ++i) {
+        int next = prev + curr;
+        prev = curr;
+        curr = next;
+    }
+    return curr;
+}
+
+void MethodFibonachi(int a, int b, int l, int e, float N)
+{
+    float a0 = a, b0 = b;
+    int k = 0;
+    float y, z, fy, fz;
+    for (; k < N-3; k++)
+    {
+        cout << "иру " << k << " L [" << a0 << " ; "<< b0<< "]" << endl;
+        y = a0 + (FibonachiN(N - 1) / FibonachiN(N+1)) * (b0 - a0);
+        z = a0 + (FibonachiN(N) / FibonachiN(N+1)) * (b0 - a0);
+        cout << "y" << k << " = " << y << endl;
+        cout << "z" << k << " = " << z << endl;
+        fy = func(y);
+        fz = func(z);
+        cout << "f(y" << k << ") = " << fy << endl;
+        cout << "f(z" << k << ") = " << fz << endl;
+        if (fy <= fz)
+        {
+            b0 = z;
+            z = y;
+            y = a0 + (FibonachiN(N - k - 3) / FibonachiN(N - k - 1))*(b0 - a0);
+        }
+        if (fy > fz) 
+        {
+            a0 = y;
+            y = z;
+            z = a0 + (FibonachiN(N - k - 3) / FibonachiN(N - k - 1)) * (b0 - a0);
+        }
+    }
+    y = (a0 + b0) / 2;
+    z = y + e;
+    fy = func(y);
+    fz = func(z);
+    if (fy <= fz) b0 = z;
+    else a0 = y;
+    cout << "L"<<6<<" = [" << a0 << "; " << b0 << "], |F" << 6<<"| = "<< b0-a0<<endl;
+    float x = (a + b) / 2;
+    float fx = func(x);
+    cout << "x* = " << x << ", f(x*) = " << fx<<endl;
+    cout << "L" << N << "/L0 = " << (b0 - a0) / (b - a) << endl;
+
+    
+}
+
+int main()
+{
+    setlocale(LC_ALL, "RU");
+    int a = -1, b = 9;
+    int l = 1;
+    int e = 0.01;
+    float F_N = (b - a) / l;
+    int N = FibonachiX(F_N);
+    cout << "F_N = " << F_N << endl;
+    cout << "N = "<< N << endl;
+    MethodFibonachi(a, b, l, e, N);
+    cout << "f(N) = " << 1 / FibonachiN(N);
+
+}
