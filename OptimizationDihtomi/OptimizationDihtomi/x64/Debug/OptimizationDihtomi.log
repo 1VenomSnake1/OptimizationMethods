@@ -1,0 +1,5 @@
+﻿  OptimizationDihtomi.cpp
+E:\source\repos\OptimizationDihtomi\OptimizationDihtomi\OptimizationDihtomi.cpp(39,25): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+E:\source\repos\OptimizationDihtomi\OptimizationDihtomi\OptimizationDihtomi.cpp(39,22): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+E:\source\repos\OptimizationDihtomi\OptimizationDihtomi\OptimizationDihtomi.cpp(39,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  OptimizationDihtomi.vcxproj -> E:\source\repos\OptimizationDihtomi\x64\Debug\OptimizationDihtomi.exe

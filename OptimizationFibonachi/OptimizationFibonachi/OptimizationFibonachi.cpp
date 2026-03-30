@@ -36,7 +36,7 @@ float FibonachiN(int n) {
     return curr;
 }
 
-void MethodFibonachi(int a, int b, int l, int e, float N)
+void MethodFibonachi(int a, int b, int l, double e, float N)
 {
     float a0 = a, b0 = b;
     int k = 0;
@@ -72,7 +72,7 @@ void MethodFibonachi(int a, int b, int l, int e, float N)
     if (fy <= fz) b0 = z;
     else a0 = y;
     cout << "L"<<6<<" = [" << a0 << "; " << b0 << "], |F" << 6<<"| = "<< b0-a0<<endl;
-    float x = (a + b) / 2;
+    float x = (a0 + b0) / 2;
     float fx = func(x);
     cout << "x* = " << x << ", f(x*) = " << fx<<endl;
     cout << "L" << N << "/L0 = " << (b0 - a0) / (b - a) << endl;
